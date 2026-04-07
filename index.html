@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brayan Arenas | Portafolio Profesional</title>
+    <link rel="icon" type="image/png" href="img/img4.png">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="introOverlay" class="intro-overlay"></div>
+
+    <nav >
+        <div class="logo">BA</a></div>
+        <ul>
+            <li><a href="#sobre-mi" data-i18n-key="navSobre">Sobre mí</a></li>
+            <li><a href="#proyectos" data-i18n-key="naBAroyectos">Proyectos</a></li>
+            <li><a href="#contacto" data-i18n-key="navContacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <header id="sobre-mi" class="sobre-mi">
+        <div class="texto-presentacion">
+            <h1 data-i18n-key="heroTitle">Brayan Arenas</h1>
+            <p data-i18n-key="heroText">Estudiante de desarrollo de software con formación como técnico en sistemas.
+                Soy un desarrollador proactivo y organizado, enfocado en crear soluciones digitales eficientes con
+                un diseño limpio y funcional usando las herramientas adecuadas ya sea JavaScript o Python.</p>
+            <div class="hero-actions">
+                <a href="#contacto" class="boton-contacto" data-i18n-key="contactButton">Hablemos →</a>
+                <button id="langToggle" class="lang-toggle">EN / ES</button>
+            </div>
+            <div class="social-links header-social-links">
+                <a href="https://www.linkedin.com/in/brayan-arenas-jaramillo-3467b4223/" target="_blank">
+                    <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="30" alt="LinkedIn">
+                </a>
+                <a href="https://www.instagram.com/arenas_jaramillo461" target="_blank">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" width="30" alt="Instagram">
+                </a>
+                <a href="https://github.com/barenas12?tab=repositories" target="_blank">
+                    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="30" alt="GitHub">
+                </a>
+            </div>
+        </div>
+
+        <div class="foto-perfil">
+            <img src="img/img9.png" alt="Brayan Arenas">
+        </div>
+    </header>
+
+    <section id="habilidades" class="habilidades">
+        <h2 class="titulo-seccion" data-i18n-key="sectionSkills">Habilidades</h2>
+        <div class="habilidades-grid">
+            <div class="habilidad-card">
+                <h3><span class="habilidad-icon">💻</span> <span data-i18n-key="skill1Title">Lenguajes de
+                        programación</span></h3>
+                <p data-i18n-key="skill1Text">JavaScript, Python, HTML y CSS experiencia en estructuras limpias,
+                    componentes reutilizables y buenas prácticas de código.</p>
+            </div>
+            <div class="habilidad-card">
+                <h3><span class="habilidad-icon">🗄️</span> <span data-i18n-key="skill2Title">Bases de datos</span></h3>
+                <p data-i18n-key="skill2Text">Trabajo con MySQL y MongoDB para el diseño, creación y mantenimiento de
+                    bases de datos relacionales y NoSQL eficientes y seguras.</p>
+            </div>
+            <div class="habilidad-card">
+                <h3><span class="habilidad-icon">🌐</span> <span data-i18n-key="skill3Title">Desarrollo web</span></h3>
+                <p data-i18n-key="skill3Text">Creación de páginas modernas, adaptables y funcionales, con atención al
+                    diseño y la experiencia del usuario.</p>
+            </div>
+            <div class="habilidad-card">
+                <h3><span class="habilidad-icon">🛠️</span> <span data-i18n-key="skill4Title">Soporte de hardware</span>
+                </h3>
+                <p data-i18n-key="skill4Text">Mantenimiento y reparación de computadores, diagnóstico de fallos y
+                    optimización de equipos.</p>
+            </div>
+        </div>
+    </section>
+
+    <main id="proyectos">
+        <h2 class="titulo-seccion" data-i18n-key="sectionProjects">Proyectos Seleccionados</h2>
+
+        <div class="grid-proyectos">
+            <div class="proyecto-card">
+                <a href="https://github.com/barenas12/inventario-front" target="_blank" rel="noopener noreferrer"
+                    class="proyecto-link">
+                    <div class="contenedor-imagen">
+                        <div class="proyecto-badge">✔ Proyecto Realizado</div>
+                        <img src="img/img3.png" alt="Inventario">
+                    </div>
+                    <div class="proyecto-info">
+                        <h3 data-i18n-key="project1Title">Inventario Frontend</h3>
+                        <p data-i18n-key="project1Desc">Sistema web para la gestión de inventario. Incluye visualización
+                            de productos en tiempo real y una interfaz adaptada a cualquier dispositivo móvil.</p>
+                        <ul class="proyecto-tareas">
+                            <li data-i18n-key="project1Task1">Planificación clara y ordenada</li>
+                            <li data-i18n-key="project1Task2">Diseño moderno y responsivo</li>
+                            <li data-i18n-key="project1Task3">Escalable</li>
+                        </ul>
+                        <span class="link-texto" data-i18n-key="project1Link">Ver Repositorio →</span>
+                    </div>
+                </a>
+            </div>
+            <div class="proyecto-card">
+                <a href="https://github.com/barenas12/dashboard-consumos"
+                    target="_blank" rel="noopener noreferrer" class="proyecto-link">
+                    <div class="contenedor-imagen">
+                        <div class="proyecto-badge">✔ Proyecto Realizado</div>
+                        <img src="img/img8.jpeg" alt="Dashboard Consumos">
+                    </div>
+                    <div class="proyecto-info">
+                        <h3 data-i18n-key="project3Title">Dashboard Consumos</h3>
+                        <p data-i18n-key="project3Desc">Se realizó un dahsboard con los consumos de herramientas masivas
+                            de SMS y WhatsApp, validando el presupuesto y el envío, mostrando en una gama de colores los que
+                            aún tienen presupuesto y los que no
+                        </p>
+                        <ul class="proyecto-tareas">
+                            <li data-i18n-key="project3Task1">Uso de Selenium</li>
+                            <li data-i18n-key="project3Task2">Uso de web scraping</li>
+                            <li data-i18n-key="project3Task3">Manejo de Python</li>
+                        </ul>
+                        <span class="link-texto" data-i18n-key="project3Link">Ver repositorio →</span>
+                    </div>
+                </a>
+            </div>
+            <div class="proyecto-card">
+                <a href="https://barenas12.github.io/b-s-inventory/" target="_blank" rel="noopener noreferrer"
+                    class="proyecto-link">
+                    <div class="contenedor-imagen">
+                        <div class="proyecto-badge">✔ Proyecto Destacado</div>
+                        <img src="img/img7.png" alt="Página web">
+                    </div>
+                    <div class="proyecto-info">
+                        <h3 data-i18n-key="project2Title">SISCOV Software</h3>
+                        <p data-i18n-key="project2Desc">Landing page para la empresa SISCOV Software, con apartado para
+                            venta de productos.</p>
+                        <ul class="proyecto-tareas">
+                            <li data-i18n-key="project2Task1">Landing Page</li>
+                            <li data-i18n-key="project2Task2">Catálogo de productos</li>
+                            <li data-i18n-key="project2Task3">Diseño Responsivo</li>
+                        </ul>
+                        <span class="link-texto" data-i18n-key="project2Link">Ver en vivo →</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <footer id="contacto">
+        <h2 class="titulo-seccion" data-i18n-key="sectionContact">Contacto</h2>
+        <p data-i18n-key="contactText">¿Tienes un proyecto en mente o buscas una nueva integrante para tu equipo?
+            Completa el formulario y te responderé pronto.</p>
+
+        <form id="form-contacto" class="form-contacto">
+            <input type="text" id="nombre" name="user_name" placeholder="Tu nombre" required
+                data-i18n-placeholder="inputName">
+            <input type="email" id="correo" name="user_email" placeholder="Tu correo electrónico" required
+                data-i18n-placeholder="inputEmail">
+            <textarea id="mensaje" name="message" placeholder="¿En qué puedo ayudarte?" required rows="4"
+                data-i18n-placeholder="inputMessage"></textarea>
+            <button type="submit" data-i18n-key="sendButton">Enviar Mensaje</button>
+        </form>
+
+        <p id="status"></p>
+
+        <p class="copyright">© 2026 — Brayan Arenas.</p>
+    </footer>
+
+    <a href="https://api.whatsapp.com/send?phone=573133249981&text=Hola+dime+en+que+proyecto+deseas+trabajar" target="_blank" class="whatsapp-float" aria-label="WhatsApp">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" width="28" alt="WhatsApp">
+    </a>
+
+    <!--<button class="comments-float" id="commentsToggle" aria-label="Abrir comentarios">💬</button>-->
+
+    <div class="comments-panel hide" id="commentsPanel" aria-live="polite">
+        <header>
+            <h3 data-i18n-key="commentsHeading">Comentarios</h3>
+            <button type="button" class="close-comments" id="closeComments">×</button>
+        </header>
+        <div class="comments-body">
+            <div id="commentsList" class="comments-list"></div>
+            <form id="commentForm" class="comments-form">
+                <input id="commentName" type="text" placeholder="Tu nombre" required
+                    data-i18n-placeholder="commentName">
+                <textarea id="commentText" rows="4" placeholder="Escribe tu comentario" required
+                    data-i18n-placeholder="commentText"></textarea>
+                <button type="submit" data-i18n-key="commentSubmit">Enviar comentario</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+        (function () {
+            /*Editar la cuenta desde count de emailJs*/
+            emailjs.init("fLkKE0reOX0eAAO0d");
+        })();
+
+        const form = document.getElementById('form-contacto');
+        const status = document.getElementById('status');
+
+        form.addEventListener('submit', function (event) {
+            event.preventDefault();
+            /*Editar el service y el template desde emailjs*/
+            emailjs.sendForm('service_barenas12', 'template_6wx4rtj', this)
+                .then(function () {
+                    status.style.color = "#28a745";
+                    status.textContent = "¡Mensaje enviado con éxito! 😊";
+                    form.reset();
+                }, function (error) {
+                    status.style.color = "#dc3545";
+                    status.textContent = "Error al enviar. Inténtalo de nuevo.";
+                });
+        });
+        const introOverlay = document.getElementById('introOverlay');
+        window.addEventListener('load', function () {
+            setTimeout(function () {
+                introOverlay.classList.add('hide');
+            }, 2400);
+        });
+
+        introOverlay.addEventListener('click', function () {
+            introOverlay.classList.add('hide');
+        });
+
+        const i18n = {
+            es: {
+                navSobre: 'Sobre mí',
+                navProyectos: 'Proyectos',
+                navContacto: 'Contacto',
+                heroTitle: 'Brayan Arenas',
+                heroText: 'Estudiante de desarrollo de software con formación como técnico en sistemas. Soy un desarrollador proactivo y organizado, enfocado en crear soluciones digitales eficientes con un diseño limpio y funcional usando las herramientas adecuadas ya sea JavaScript o Python.',
+                contactButton: 'Hablemos →',
+                sectionSkills: 'Habilidades',
+                sectionProjects: 'Proyectos Seleccionados',
+                sectionContact: 'Contacto',
+                contactText: '¿Tienes un proyecto en mente o buscas una nueva integrante para tu equipo? Completa el formulario y te responderé pronto.',
+                inputName: 'Tu nombre',
+                inputEmail: 'Tu correo electrónico',
+                inputMessage: '¿En qué puedo ayudarte?',
+                commentName: 'Tu nombre',
+                commentText: 'Escribe tu comentario',
+                commentSubmit: 'Enviar comentario',
+                commentsHeading: 'Comentarios',
+                commentsEmpty: 'Aún no hay comentarios. Sé el primero en dejar uno.',
+                sendButton: 'Enviar Mensaje',
+                introWelcome: 'Bienvenida',
+                introText: 'Mi portafolio cobra vida desde tu celular',
+                introClick: 'Toca para continuar',
+                skill1Title: 'Lenguajes de programación',
+                skill1Text: 'JavaScript, Python, HTML y CSS experiencia en estructuras limpias, componentes reutilizables y buenas prácticas de código.',
+                skill2Title: 'Bases de datos',
+                skill2Text: 'Trabajo con MySQL y MongoDB para el diseño, creación y mantenimiento de bases de datos relacionales y NoSQL eficientes y seguras.',
+                skill3Title: 'Desarrollo web',
+                skill3Text: 'Creación de páginas modernas, adaptables y funcionales, con atención al diseño y la experiencia del usuario.',
+                skill4Title: 'Soporte de hardware',
+                skill4Text: 'Mantenimiento y reparación de computadores, diagnóstico de fallos y optimización de equipos.',
+                project1Title: 'Inventario Frontend',
+                project1Desc: 'Sistema web para la gestión de inventario. Incluye visualización de productos en tiempo real y una interfaz adaptada a cualquier dispositivo móvil.',
+                project1Task1: 'Planificación clara y ordenada',
+                project1Task2: 'Diseño moderno y responsivo',
+                project1Task3: 'Escalable',
+                project1Link: 'Ver repositorio →',
+                project2Title: 'SISCOV Software',
+                project2Desc: 'Landing page para la empresa SISCOV Software ofertando servicios, con apartado para venta de productos. Cuenta con diseño responsivo para dispositivos móviles.',
+                project2Task1: 'Landing Page',
+                project2Task2: 'Catálogo de productos',
+                project2Task3: 'Diseño Responsivo',
+                project2Link: 'Ver proyecto en vivo →',
+                project3Title: 'Dashboard de consumos',
+                project3Desc: 'Se realizó un dahsboard con los consumos de herramientas masivas de SMS y WhatsApp, validando el presupuesto y el envío, mostrando en una gama de colores los que aún tienen presupuesto y los que no.',
+                project3Task1: 'Uso de Selenium',
+                project3Task2: 'Uso de Web Scraping',
+                project3Task3: 'Manejo de Python',
+                project3Link: 'Ver repositorio →',
+                commentSubmit: 'Enviar comentario',
+                commentsHeading: 'Comentarios',
+                commentsEmpty: 'Aún no hay comentarios. Sé el primero en dejar uno.'
+            },
+            en: {
+                navSobre: 'About',
+                naBAroyectos: 'Projects',
+                navContacto: 'Contact',
+                heroTitle: 'Brayan Arenas',
+                heroText: 'Software development student with a background as a systems technician. I am a proactive and organized developer, focused on creating efficient digital solutions with a clean and functional design using the appropriate tools, whether JavaScript or Python.',
+                contactButton: 'Let&apos;s talk →',
+                sectionSkills: 'Skills',
+                sectionProjects: 'Selected Projects',
+                sectionContact: 'Contact',
+                contactText: 'Do you have a project in mind or are you looking for a new team member? Fill out the form and I will reply soon.',
+                inputName: 'Your name',
+                inputEmail: 'Your email',
+                inputMessage: 'How can I help you?',
+                sendButton: 'Send Message',
+                introWelcome: 'Welcome',
+                introText: 'My portfolio comes alive on your phone',
+                introClick: 'Tap to continue',
+                skill1Title: 'Programming languages',
+                skill1Text: 'C# and HTML with experience in clean structures, reusable components and code best practices.',
+                skill2Title: 'Databases',
+                skill2Text: 'Working with MySQL and MongoDB for the design, creation and maintenance of efficient and secure relational and NoSQL databases.',
+                skill3Title: 'Web development',
+                skill3Text: 'Creating modern, adaptable and functional pages with attention to design and user experience.',
+                skill4Title: 'Hardware support',
+                skill4Text: 'Computer maintenance and repair, fault diagnosis and equipment optimization.',
+                project1Title: 'Inventory Frontend',
+                project1Desc: 'Web-based inventory management system. Includes real-time product display and an interface adapted to any mobile device.',
+                project1Task1: 'Clear and orderly planning',
+                project1Task2: 'Modern and responsive design',
+                project1Task3: 'Scalable',
+                project1Link: 'View repository →',
+                project2Title: 'SISCOV Software',
+                project2Desc: 'Landing page for the company SISCOV Software, offering services, with a section for product sales. It features a responsive design for mobile devices.',
+                project2Task1: 'Landing Page',
+                project2Task2: 'Product catalog',
+                project2Task3: 'Responsive design',
+                project2Link: 'View live project →',
+                project3Title: 'Consumption Dashboard',
+                project3Desc: 'A dashboard was created showing the consumption of bulk SMS and WhatsApp tools, validating the budget and the sending, showing in a range of colors those that still have budget and those that do not.',
+                project3Task1: 'Using Selenium',
+                project3Task2: 'Using Web Scraping',
+                project3Task3: 'Python Handling',
+                project3Link: 'View repository →',
+                commentSubmit: 'Send comment',
+                commentsHeading: 'Comments',
+                commentsEmpty: 'No comments yet. Be the first to add one.'
+            }
+        };
+
+        const langToggle = document.getElementById('langToggle');
+        let currentLang = 'es';
+
+        const translatePage = (lang) => {
+            document.querySelectorAll('[data-i18n-key]').forEach(el => {
+                const key = el.getAttribute('data-i18n-key');
+                if (i18n[lang] && i18n[lang][key]) {
+                    el.innerHTML = i18n[lang][key];
+                }
+            });
+            document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
+                const key = el.getAttribute('data-i18n-placeholder');
+                if (i18n[lang] && i18n[lang][key]) {
+                    el.placeholder = i18n[lang][key];
+                }
+            });
+            document.documentElement.lang = lang;
+        };
+
+        langToggle.addEventListener('click', function () {
+            currentLang = currentLang === 'es' ? 'en' : 'es';
+            translatePage(currentLang);
+            renderComments();
+            langToggle.textContent = currentLang === 'es' ? 'EN / ES' : 'ES / EN';
+        });
+
+        translatePage(currentLang);
+
+        const commentsToggle = document.getElementById('commentsToggle');
+        const commentsPanel = document.getElementById('commentsPanel');
+        const closeComments = document.getElementById('closeComments');
+        const commentsList = document.getElementById('commentsList');
+        const commentForm = document.getElementById('commentForm');
+        const commentName = document.getElementById('commentName');
+        const commentText = document.getElementById('commentText');
+        const commentsKey = 'portfolioComments';
+
+        const formatDate = (timestamp) => {
+            const date = new Date(timestamp);
+            return date.toLocaleDateString(currentLang === 'es' ? 'es-ES' : 'en-US', {
+                day: 'numeric', month: 'short', year: 'numeric'
+            });
+        };
+
+        const loadComments = () => {
+            const stored = localStorage.getItem(commentsKey);
+            return stored ? JSON.parse(stored) : [];
+        };
+
+        const saveComments = (comments) => {
+            localStorage.setItem(commentsKey, JSON.stringify(comments));
+        };
+
+        const renderComments = () => {
+            const comments = loadComments();
+            commentsList.innerHTML = '';
+
+            if (!comments.length) {
+                const emptyText = i18n[currentLang] && i18n[currentLang].commentsEmpty ? i18n[currentLang].commentsEmpty : 'Aún no hay comentarios. Sé el primero en dejar uno.';
+                commentsList.innerHTML = `<div class="comments-empty">${emptyText}</div>`;
+                return;
+            }
+
+            comments.slice().reverse().forEach(comment => {
+                const card = document.createElement('div');
+                card.className = 'comment-card';
+                card.innerHTML = `<strong>${comment.name}</strong><p>${comment.text}</p><small>${formatDate(comment.date)}</small>`;
+                commentsList.appendChild(card);
+            });
+        };
+
+        commentsToggle.addEventListener('click', () => {
+            commentsPanel.classList.toggle('hide');
+        });
+
+        closeComments.addEventListener('click', () => {
+            commentsPanel.classList.add('hide');
+        });
+
+        commentForm.addEventListener('submit', function (e) {
+            e.preventDefault();
+            const name = commentName.value.trim();
+            const text = commentText.value.trim();
+            if (!name || !text) return;
+
+            const comments = loadComments();
+            comments.push({ name, text, date: Date.now() });
+            saveComments(comments);
+            renderComments();
+            commentForm.reset();
+            commentsPanel.classList.remove('hide');
+        });
+
+        renderComments();
+    </script>
+</body>
+
+</html>
